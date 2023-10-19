@@ -14,11 +14,8 @@ int main(void)
       */
 
     while (alphabet <= 'z')
-    {
-        // print the value of the variable 
+    { 
         putchar(alphabet);
-
-        // increment the variable (ie: a becomes b)
         alphabet++;
     }
 
