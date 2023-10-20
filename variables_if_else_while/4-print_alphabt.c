@@ -2,7 +2,7 @@
 
 /**
  * main - this program prints alphabets
- * Return: Always (0) Success
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -11,13 +11,11 @@ int main(void)
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(alphabet);
-	}
-	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
-	{
-		putchar(alphabet);
+		if (alphabet != 'e' && alphabet != 'q')
+		{
+			putchar(alphabet);
+		}
 	}
 	putchar('\n');
 	return (0);
 }
-
