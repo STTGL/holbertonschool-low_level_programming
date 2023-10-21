@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-    int digit;
+int digit;
 
-    for (digit =48; digit < 58; digit++) {
-        putchar(digit);
-    }
+for (digit =48; digit < 58; digit++) {
+putchar(digit);
+}
     
-    putchar('\n');
+putchar('\n');
 
-    return (0);
+return (0);
 }
 
 
