@@ -1,24 +1,23 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: This program prints all lowercase letters from 'a' to 'z'
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    /* Declare a variable and initialize it with the first member of 
-       the range [a - z] 
-    */
+char alphabet = 'a';
 
-    char alphabet = 'a';
-
-     /* check to see if the current value of your variable is less than 
-         or the same as the last member (z) of the given range. While 
-         the value is less, go ahead and print the value 
-      */
-
-    while (alphabet <= 'z')
-    { 
-        putchar(alphabet);
-        alphabet++;
-    }
-
-    putchar('\n');
-    return (0);
+while (alphabet <= 'z')
+{
+putchar(alphabet);
+alphabet++;
 }
+
+putchar('\n');
+return (0);
+}
+
