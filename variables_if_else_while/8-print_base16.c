@@ -11,7 +11,7 @@ int main(void)
 
 	for (base16 = '0'; base16 <= '9'; base16++)
 	{
-		putchar(letter_);
+		putchar(base16);
 	}
 	for (base16 = 'a'; base16 <= 'f'; base16++)
 	{
