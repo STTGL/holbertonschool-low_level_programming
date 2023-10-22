@@ -31,7 +31,7 @@ void times_table(void)
 			if (vur >= 10)
 			{
 				_putchar(vur / 10 + '0');
-				_putchar(vur % 10 + '0')
+				_putchar(vur % 10 + '0');
 			}
 			else
 			{
