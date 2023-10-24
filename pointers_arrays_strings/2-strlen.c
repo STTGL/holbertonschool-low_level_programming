@@ -2,6 +2,7 @@
 #include <string.h>
 
 int _strlen(char *s)
-{
-	strlen(char *s);
+{       int p;
+	p=strlen(s);
+	return(p);
 }
