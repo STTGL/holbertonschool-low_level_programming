@@ -3,5 +3,5 @@
 
 void _puts(char *str)
 {
-	puts(str);
+	_puts(str);
 }
