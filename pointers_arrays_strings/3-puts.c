@@ -3,5 +3,10 @@
 
 void _puts(char *str)
 {
-	puts(const char *str);
+	while (*str)
+	{
+		putchar(*str);
+		str++;
+	
+	}
 }
