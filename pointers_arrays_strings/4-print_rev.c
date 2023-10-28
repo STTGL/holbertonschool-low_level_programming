@@ -8,6 +8,6 @@ int l = strlen (s);
 int n;
 for(n = l-1; n >= 0; n--){
 putchar (s[n]);
-putchar ('\n');
 }
+putchar ('\n');
 }
