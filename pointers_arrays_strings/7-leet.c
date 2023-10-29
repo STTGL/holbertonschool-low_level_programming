@@ -21,7 +21,6 @@ for (j = 0; original[j] != '\0'; j++)
 if (str[i] == original[j])
 {
 str[i] = replacements[j];
-break;
 }
 }
 }
