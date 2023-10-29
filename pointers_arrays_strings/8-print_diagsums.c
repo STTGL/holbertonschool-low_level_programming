@@ -11,12 +11,13 @@
 void print_diagsums(int *a, int size) {
     int main_diag_sum = 0;
     int anti_diag_sum = 0;
+    int i = 0;
 
-    for (int i = 0; i < size; i++) {
+    for (i = 0; i < size; i++) {
         main_diag_sum += a[i * size + i];
         anti_diag_sum += a[i * size + (size - 1 - i)];
     }
 
-    printf(main_diag_sum);
-    printf(anti_diag_sum);
+    printf("%d\n", main_diag_sum);
+    printf("%d\n", anti_diag_sum);
 }
