@@ -9,8 +9,8 @@
  * anti-diagonal of a square matrix of integers.
  */
 void print_diagsums(int *a, int size) {
-    int main_diag_sum = 0;  // Sum of the main diagonal
-    int anti_diag_sum = 0;  // Sum of the anti-diagonal
+    int main_diag_sum = 0;
+    int anti_diag_sum = 0;
 
     for (int i = 0; i < size; i++) {
         main_diag_sum += a[i * size + i];
