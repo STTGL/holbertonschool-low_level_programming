@@ -20,5 +20,5 @@ main_diag_sum += a[i * size + i];
 anti_diag_sum += a[i * size + (size - 1 - i)];
 }
 
-printf("%d\n, %d\n", main_diag_sum, anti_diag_sum);
+printf("%d, %d", main_diag_sum, anti_diag_sum);
 }
