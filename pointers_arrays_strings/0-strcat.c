@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * _strcat - a function that concatenates two strings
+ * _strcat - a function
  *
- * @dest: destination string argument
- * @src: source string argument
+ * @dest: destination
+ * @src: source
  *
  * Return: returns concatenated string
  */
