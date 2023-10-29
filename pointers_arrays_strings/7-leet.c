@@ -2,31 +2,24 @@
 #include "main.h"
 
 /**
- * leet - is Write a function
+ * leet - Replace specified characters
+ * @str: The input string to be modified
  *
- * @str: string argument
- * Return: encoded string
+ * Return: A pointer to the modified string
  */
 
 char *leet(char *str) {
-char *p = str;
+char *original = "aAeEoOtTlL";
+char *replacements = "443370711";
+int i, j;
 
-
-while (*p) {
-char c = *p;
-
-if (c == 'a' || c == 'A')
-*p = '4';
-else if (c == 'e' || c == 'E')
-*p = '3';
-else if (c == 'o' || c == 'O')
-*p = '0';
-else if (c == 't' || c == 'T')
-*p = '7';
-else if (c == 'l' || c == 'L')
-*p = '1';
-
-p++;
+for (i = 0; str[i] != '\0'; i++) {
+for (j = 0; original[j] != '\0'; j++) {
+if (str[i] == original[j]) {
+str[i] = replacements[j];
+break;
+}
+}
 }
 
     return (str);
